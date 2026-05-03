@@ -22,7 +22,6 @@ Este notebook apresenta a análise preliminar do Projeto Integrador III, com foc
 
 ## 9. Próximos passos
 
----
 
 ## Checklist da Entrega 2
 
