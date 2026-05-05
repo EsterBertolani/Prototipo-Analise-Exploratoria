@@ -311,5 +311,3 @@ Projeto em desenvolvimento.
 A versão atual corresponde à **Entrega 2**, com foco em análise exploratória, visualização dos dados e construção de um modelo baseline inicial.
 
 ````
-
----
