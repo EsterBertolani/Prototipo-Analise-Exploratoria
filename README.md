@@ -74,9 +74,9 @@ O arquivo principal utilizado no notebook é:
 MICRODADOS_OCORRENCIAS.csv
 ````
 
-Por se tratar de uma base grande, o arquivo de dados pode não estar versionado diretamente no GitHub. Caso ele não esteja no repositório, será necessário baixá-lo novamente da fonte oficial utilizada: [SESP - Painel de Crimes contra o Patrimônio](https://sesp.es.gov.br/painel-de-crimes-contra-o-patrimonio), e adicioná-lo manualmente à pasta ´data´ do projeto.
+Caso ele não esteja acessível no repositório, será necessário baixá-lo novamente da fonte oficial utilizada: [SESP - Painel de Crimes contra o Patrimônio](https://sesp.es.gov.br/painel-de-crimes-contra-o-patrimonio), e adicioná-lo manualmente à pasta ´dados´ do projeto.
 
-(adicionar imagem)
+![Anexo](<Captura de tela 2026-05-05 191400.png>)
 
 ---
 
@@ -87,7 +87,7 @@ Por se tratar de uma base grande, o arquivo de dados pode não estar versionado 
 ```text
 prototipo-analise-exploratoria/
 │
-├── data/
+├── dados/
 │   └── MICRODADOS_OCORRENCIAS.csv
 │
 ├── notebooks/
@@ -173,7 +173,7 @@ MICRODADOS_OCORRENCIAS.csv
 dentro da pasta:
 
 ```text
-data/
+dados/
 ```
 
 Caso o notebook esteja procurando o arquivo em outro caminho, ajuste a variável responsável pelo caminho do CSV na sessão ´Carregamento dos dados´.
@@ -181,7 +181,7 @@ Caso o notebook esteja procurando o arquivo em outro caminho, ajuste a variável
 Exemplo:
 
 ```python
-dados = pd.read_csv("../data/MICRODADOS_OCORRENCIAS.csv", sep=';', encoding='latin-1')
+dados = pd.read_csv("../dados/MICRODADOS_OCORRENCIAS.csv", sep=';', encoding='latin-1')
 ```
 
 ---
@@ -311,4 +311,5 @@ Projeto em desenvolvimento.
 A versão atual corresponde à **Entrega 2**, com foco em análise exploratória, visualização dos dados e construção de um modelo baseline inicial.
 
 ````
+
 ---
