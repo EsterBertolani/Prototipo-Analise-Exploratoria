@@ -1,0 +1,4 @@
+\_\_pycache\_\_/
+.ipynb\_checkpoints/
+venv/
+.env
