@@ -4,7 +4,7 @@ Projeto desenvolvido para a disciplina **Projeto Integrador III**, com foco na a
 
 O objetivo principal do projeto é identificar padrões temporais nos registros de crimes contra o patrimônio, com ênfase na **hora de ocorrência**, utilizando técnicas de análise exploratória de dados e um modelo baseline inicial.
 
-### Vídeo do projeto: [clique aqui]()
+### Vídeo do projeto: [clique aqui](https://youtu.be/myGC_F7LWfA)
 
 ## Integrantes do grupo
 
